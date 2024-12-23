@@ -1,0 +1,208 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.money-manager-container {
+  width: 80%;
+  max-width: 550px;
+}
+
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 65px;
+}
+
+.head1 {
+  color: #475569;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.para3 {
+  color: #475569;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.para4 {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.transactions-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.transactions-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 425px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 32px;
+}
+
+.head2 {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.input-label {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 0px;
+}
+
+.input {
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 155px;
+  outline: none;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 25px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 25px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.transactions-history-container {
+  width: 100%;
+  min-height: 325px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 25px;
+  margin-top: 33px;
+}
+
+.history-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.history-table {
+  padding-left: 0;
+  margin: 0px;
+}
+
+.history {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.para5 {
+  color:  #334155;
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+
+@media screen and (min-width: 768px) {
+  .money-manager-container {
+    max-width: 1150px;
+  }
+
+  .header-container {
+    align-items: flex-start;
+    padding: 48px;
+  }
+
+  .head1 {
+    font-size: 30px;
+  }
+
+  .para3 {
+    font-size: 18px;
+  }
+
+  .transactions-details-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .transactions-form {
+    width: 40%;
+    padding-right: 43px;
+    padding-left: 48px;
+  }
+
+  .head2 {
+    font-size: 21px;
+  }
+
+  .transactions-history-container {
+    width: 55%;
+    min-height: 425px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding-left: 48px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    padding-right: 41px;
+    margin-top: 0px;
+    margin-right: 33px;
+  }
+
+  .history {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .para5 {
+   font-size: 15px;
+  }
+}

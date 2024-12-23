@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.transactions-history {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Roboto';
+}
+
+.para6 {
+  color: #475569;
+  font-size: 13px;
+  width: 30%;
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.button1 {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.img2 {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .transactions-history {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .para6 {
+    font-size: 16px;
+  }
+
+  .img2 {
+    margin-right: 25px;
+  }
+}
